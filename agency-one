@@ -1,0 +1,97 @@
+/* Overflow hidden */
+.mTwYvQ3B6S9l0ypyNaMy .transition-slowest .flex-col > .overflow-hidden {
+    background-color: #a8b7d6;
+    transform: translatex(0px) translatey(0px);
+    background-image: url("https://images.unsplash.com/photo-1736025237182-c844eb7b7207?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8OTB8fHx8fHx8fDE3MzY1MDc5NDB8&ixlib=rb-4.0.3&q=80&w=1080");
+}
+
+/* Span Tag */
+.mTwYvQ3B6S9l0ypyNaMy #sb_agency-twilio-settings span {
+    border-style: dotted;
+}
+
+/* Agency billing settings */
+.mTwYvQ3B6S9l0ypyNaMy #sb_agency-billing-settings {
+    background-image: url("https://images.unsplash.com/photo-1736416019800-7133b4dfa6f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8Mnx8fHx8fHx8MTczNjUwNzgyOHw&ixlib=rb-4.0.3&q=80&w=400") !important;
+}
+
+/* General Configuration - Blue for text */
+.mTwYvQ3B6S9l0ypyNaMy .n-config-provider > .h-full {
+    color: #2c3e50; /* Dark gray-blue for a trustworthy, professional tone */
+}
+
+/* Card Header in CRM Opportunities - Clean real estate look */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-card-header {
+
+}
+
+/* Card Content in CRM Opportunities */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-card-content {
+
+}
+
+/* Location Dashboard Header - Elegant, subtle */
+.mTwYvQ3B6S9l0ypyNaMy .py-2\.5 .location-dashboard_header {
+
+}
+
+/* Container Fluid - Clean and spacious design */
+.mTwYvQ3B6S9l0ypyNaMy .container-fluid {
+
+}
+
+/* Doodle Element for .grid-stack-item-content (e.g., icon or small graphic) */
+.mTwYvQ3B6S9l0ypyNaMy #widget_676c3c0ddc40a523027f6264 .grid-stack-item-content::after {
+
+}
+
+/* CRM Opportunities Status - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-text-md-medium {
+    font-size: 1rem; /* Adjust font size for consistency */
+    color: #34495e; /* Professional dark slate blue */
+    font-weight: 600; /* Slightly bold for emphasis */
+    display: inline-flex; /* Ensures proper alignment with the emoji */
+    align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-text-md-medium::before {
+    content: "🔑"; /* Key emoji for status context */
+    font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+    margin-right: 8px; /* Space between the emoji and the text */
+    vertical-align: middle;
+    color: #1abc9c; /* Green accent for a modern and professional touch */
+}
+
+/* CRM Opportunities Value - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-value .hl-text-md-medium {
+    font-size: 1rem; /* Adjust font size for consistency */
+    color: #2c3e50; /* Professional dark gray-blue */
+    font-weight: 600; /* Slightly bold for emphasis */
+    display: inline-flex; /* Ensures proper alignment with the emoji */
+    align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-value .hl-text-md-medium::before {
+    content: "💰"; /* Money emoji for real estate context */
+    font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+    margin-right: 8px; /* Space between the emoji and the text */
+    vertical-align: middle;
+    color: #3498db; /* Light blue to match a real estate theme */
+}
+
+/* CRM Opportunities Conversion Rate - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-conversion-rate .hl-text-md-medium {
+    font-size: 1rem; /* Adjust font size for consistency */
+    color: #2c3e50; /* Professional dark gray-blue */
+    font-weight: 600; /* Slightly bold for emphasis */
+    display: inline-flex; /* Ensures proper alignment with the emoji */
+    align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-conversion-rate .hl-text-md-medium::before {
+    content: "📈"; /* Chart Increasing emoji for Conversion Rate */
+    font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+    margin-right: 8px; /* Space between the emoji and the text */
+    vertical-align: middle;
+    color: #3498db; /* Light blue to match a professional theme */
+}
