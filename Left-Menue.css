@@ -1,0 +1,17 @@
+/* Overflow hidden */
+.transition-slowest .flex-col > .overflow-hidden{
+ background-color:#a8b7d6;
+ transform:translatex(0px) translatey(0px);
+ background-image:url("https://images.unsplash.com/photo-1736025237182-c844eb7b7207?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8OTB8fHx8fHx8fDE3MzY1MDc5NDB8&ixlib=rb-4.0.3&q=80&w=1080");
+}
+
+/* Span Tag */
+#sb_agency-twilio-settings span{
+ border-style:dotted;
+}
+
+/* Agency billing settings */
+#sb_agency-billing-settings{
+ background-image:url("https://images.unsplash.com/photo-1736416019800-7133b4dfa6f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8Mnx8fHx8fHx8MTczNjUwNzgyOHw&ixlib=rb-4.0.3&q=80&w=400") !important;
+}
+
