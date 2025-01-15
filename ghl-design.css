@@ -1,0 +1,353 @@
+/* --------------------------Golobal roort var--------------------------------------------------- */
+:root {
+  /* --side-bar-menuw: linear-gradient(to right top, #f2f6f9); */
+  /* --side-bar-menuw: linear-gradient(rgb(230, 229, 242), rgb(69, 153, 205)); */
+  /* #000 */
+  --side-bar-menu: linear-gradient(#e6e5f2, #4599cd);
+
+  /* --main-screen-controls: linear-gradient(to right top, #f2f6f9); */
+  --main-screen-controls: linear-gradient(#e6e5f2, #2d5d77);
+
+  --main-screen-controls-back: linear-gradient(to right top, #f2f6f9);
+
+  /*------------------------------*/
+  --transition-all-duration: 0.3s; /* Correctly formatted with a semicolon */
+  --transition-all-timing-function: ease-in-out;
+  --transition-all-button-color: linear-gradient(
+    to right top,
+    #f72627,
+    #f76900,
+    #e99a00,
+    #cfc500,
+    #a8eb12
+  );
+  --transition-all-button-bg-color: #f5f7fa;
+  --transition-all-button-hover-color: #ffffff;
+  --transition-all-button-hover-bg-color: linear-gradient(
+    to right top,
+    #f72627,
+    #f76900,
+    #e99a00,
+    #cfc500,
+    #a8eb12
+  );
+  --transition-all-button-hover-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /*------------------------------*/
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Overflow hidden */
+.mTwYvQ3B6S9l0ypyNaMy .transition-slowest .flex-col > .overflow-hidden {
+  background-color: #a8b7d6;
+  transform: translatex(0px) translatey(0px);
+  /* background-image: var(--side-bar-menuw); */
+  background-image: linear-gradient(#e6e5f2, #2d5d77);
+}
+
+/* Span Tag */
+.mTwYvQ3B6S9l0ypyNaMy #sb_agency-twilio-settings span {
+  border-style: dotted;
+}
+
+/* Agency billing settings */
+.mTwYvQ3B6S9l0ypyNaMy #sb_agency-billing-settings {
+}
+/* General Configuration - Blue for text */
+.mTwYvQ3B6S9l0ypyNaMy .n-config-provider > .h-full {
+  color: #2c3e50; /* Dark gray-blue for a trustworthy, professional tone */
+}
+
+/* Card Header in CRM Opportunities - Clean real estate look */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-value .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .chart-container.chart-filter .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+/* Card Content in CRM Opportunities*/
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-card-content {
+}
+.mTwYvQ3B6S9l0ypyNaMy .location-dashboard-wrapper {
+  background-image: var(--main-screen-controls-back);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-conversion-rate .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-stages-distribution .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .location-dashboard-task-container .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-conversations-manual-actions .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .automations-reporting-google-ads-report .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-sales-efficiency .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy
+  .automations-reporting-google-analytics-count-report
+  .relative {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy
+  .automations-reporting-google-analytics-chart-report
+  .justify-between {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .automations-reporting-gmb-report .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .hl_topbar-tabs .hl-wrapper-container {
+  background-image: var(--main-screen-controls);
+}
+
+.mTwYvQ3B6S9l0ypyNaMy
+  .automations-reporting-facebook-ads-report
+  .hl-card-header {
+  background-image: var(--main-screen-controls);
+}
+.mTwYvQ3B6S9l0ypyNaMy .location-dashboard-lead-source-report .hl-card-header {
+  background-image: var(--main-screen-controls-back);
+}
+
+/* Location Dashboard Header - Elegant, subtle */
+.mTwYvQ3B6S9l0ypyNaMy .py-2\.5 .location-dashboard_header {
+  background-image: var(--main-screen-controls);
+}
+
+/* Container Fluid - Clean and spacious design */
+.mTwYvQ3B6S9l0ypyNaMy .container-fluid {
+  /* background-image: var(--main-screen-controls); */
+  background: #432a2a;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .notification-banner-wrapper .hl-wrapper-container {
+  background-image: var(--main-screen-controls-back);
+}
+
+/* Doodle Element for .grid-stack-item-content (e.g., icon or small graphic) */
+.mTwYvQ3B6S9l0ypyNaMy
+  #widget_676c3c0ddc40a523027f6264
+  .grid-stack-item-content::after {
+}
+
+/* CRM Opportunities Status - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #34495e; /* Professional dark slate blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-status .hl-text-md-medium::before {
+  content: "🔑"; /* Key emoji for status context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #1abc9c; /* Green accent for a modern and professional touch */
+}
+
+/* CRM Opportunities Value - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-value .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-value .hl-text-md-medium::before {
+  content: "💰"; /* Money emoji for real estate context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #3498db; /* Light blue to match a real estate theme */
+}
+
+/* CRM Opportunities Conversion Rate - Adding Emoji */
+.mTwYvQ3B6S9l0ypyNaMy .crm-opportunities-conversion-rate .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+
+.mTwYvQ3B6S9l0ypyNaMy
+  .crm-opportunities-conversion-rate
+  .hl-text-md-medium::before {
+  content: "📈"; /* Chart Increasing emoji for Conversion Rate */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #3498db; /* Light blue to match a professional theme */
+}
+/*----------Funnel------------------------------*/
+.mTwYvQ3B6S9l0ypyNaMy .chart-container.chart-filter .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+
+/* Adding Emoji Before Text */
+.mTwYvQ3B6S9l0ypyNaMy .chart-container.chart-filter .hl-text-md-medium::before {
+  content: "🪜"; /* Ladder emoji for funnel/filter context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #1abc9c; /* Green accent to match a professional theme */
+}
+/*---------Stage Distribution---------------------------*/
+.mTwYvQ3B6S9l0ypyNaMy
+  .crm-opportunities-stages-distribution
+  .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+
+/* Adding Emoji Before Text */
+.mTwYvQ3B6S9l0ypyNaMy
+  .crm-opportunities-stages-distribution
+  .hl-text-md-medium::before {
+  content: "📊"; /* Bar chart emoji for Stage Distribution context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #3498db; /* Light blue to match a professional theme */
+}
+/*-------------------------------------------------------------*/
+/* Task Container - Clipboard emoji for tasks */
+.mTwYvQ3B6S9l0ypyNaMy .location-dashboard-task-container .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+.mTwYvQ3B6S9l0ypyNaMy
+  .location-dashboard-task-container
+  .hl-text-md-medium::before {
+  content: "📋"; /* Clipboard emoji for task-related context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #1abc9c; /* Green accent for a modern and professional touch */
+}
+
+/* Manual Actions - Hand emoji for manual tasks */
+.mTwYvQ3B6S9l0ypyNaMy .crm-conversations-manual-actions .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+.mTwYvQ3B6S9l0ypyNaMy
+  .crm-conversations-manual-actions
+  .hl-text-md-medium::before {
+  content: "🤝"; /* Handshake emoji for manual actions */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #e67e22; /* Orange for warmth and engagement */
+}
+
+/* Lead Source Report - Magnifying glass emoji for insights */
+.mTwYvQ3B6S9l0ypyNaMy
+  .location-dashboard-lead-source-report
+  .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+.mTwYvQ3B6S9l0ypyNaMy
+  .location-dashboard-lead-source-report
+  .hl-text-md-medium::before {
+  content: "🔍"; /* Magnifying glass emoji for report context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #3498db; /* Light blue to match a professional theme */
+}
+
+/* Google Analytics Count Report - Bar chart emoji for data insights */
+.mTwYvQ3B6S9l0ypyNaMy
+  .automations-reporting-google-analytics-count-report
+  .hl-text-md-medium {
+  font-size: 1rem; /* Adjust font size for consistency */
+  color: #2c3e50; /* Professional dark gray-blue */
+  font-weight: 600; /* Slightly bold for emphasis */
+  display: inline-flex; /* Ensures proper alignment with the emoji */
+  align-items: center;
+}
+.mTwYvQ3B6S9l0ypyNaMy
+  .automations-reporting-google-analytics-count-report
+  .hl-text-md-medium::before {
+  content: "📈"; /* Chart emoji for analytics context */
+  font-size: 1.25rem; /* Slightly larger emoji for visual balance */
+  margin-right: 8px; /* Space between the emoji and the text */
+  vertical-align: middle;
+  color: #2ecc71; /* Green to represent growth and success */
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .transition-all {
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  color: #4a90e2; /* Professional blue shade */
+  background-color: #f5f7fa; /* Subtle light background */
+}
+
+.mTwYvQ3B6S9l0ypyNaMy .transition-all:hover {
+  color: #ffffff; /* White color on hover */
+  background-color: #007aff; /* Strong blue for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for emphasis */
+}
+
+/*--------------------------------------------------------*/
+/* Base Transition-all Button Class */
+.mTwYvQ3B6S9l0ypyNaMy .transition-all-button {
+  transition: all var(--transition-all-duration)
+    var(--transition-all-timing-function); /* Apply global transition */
+  color: var(--transition-all-button-color); /* Button default text color */
+  background-color: var(
+    --transition-all-button-bg-color
+  ); /* Button default background color */
+}
+
+/* Hover Effect for Transition-all Button */
+.mTwYvQ3B6S9l0ypyNaMy .transition-all-button:hover {
+  color: var(--transition-all-button-hover-color); /* Button hover text color */
+  background-color: var(
+    --transition-all-button-hover-bg-color
+  ); /* Button hover background color */
+  box-shadow: var(
+    --transition-all-button-hover-shadow
+  ); /* Button hover shadow */
+}
